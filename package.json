@@ -1,0 +1,17 @@
+{
+  "name": "ts-begin-tstv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node src/add.js",
+    "poststart": "echo end"
+  },
+  "keywords": [],
+  "author": "Mario Lazzari",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
